@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 
 
@@ -18,7 +17,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline; /*définit l'alignement vertical d'une boîte en ligne (inline) ou d'une cellule de tableau.*/}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -67,7 +66,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
+/* Basic -----------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 	@-ms-viewport {
 		width: device-width;
@@ -108,7 +107,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type */
+/* Type ------------------------------------------------------------------------------------------------------------------------------------------------------*/-
 
 	body, input, select, textarea {
 		color: #ffffff;
@@ -118,7 +117,7 @@ input, select, textarea {
 		letter-spacing: 0.025em;
 		line-height: 1.65;
 	}
-
+/* Adaptation de la taille de la police suivant l'ecran*/
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
