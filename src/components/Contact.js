@@ -5,7 +5,7 @@ const Contact = (props) => (
         <div className="inner">
             <section>
             <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                <input type="hidden" name="bot-field" />
+                
                     <div className="field half first">
                         <label htmlFor="name">Nom</label>
                         <input type="text" name="name" id="name" />
