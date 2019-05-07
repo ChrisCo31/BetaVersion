@@ -4,8 +4,9 @@ const Contact = (props) => (
     <section id="contact">
         <div className="inner">
             <section>
-            <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                <input type="hidden" name="bot-field" />
+            <form name="contact" method="post" data-netlify="true" >
+                
+                <input type="hidden" name="form-name" value="contact" />
                     <div className="field half first">
                         <label htmlFor="name">Nom</label>
                         <input type="text" name="name" id="name" />
@@ -18,6 +19,7 @@ const Contact = (props) => (
                         <label htmlFor="message"> Parlez nous de votre projet</label>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
+                    <div data-netlify-recaptcha="true"></div>
                     <ul className="actions">
                         <li><input type="submit" value="Send Message" className="special" /></li>
                         <li><input type="reset" value="Clear" /></li>
