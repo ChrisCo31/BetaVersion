@@ -11,10 +11,10 @@ const Prez = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Projet_1')}}>Projet 1</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Projet_2')}}>Projet 2</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Projet_3')}}>Projet 3</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('Projet_4')}}>Projet 4</a></li>
             </ul>
         </nav>
     </prez>

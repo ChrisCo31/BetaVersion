@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Layout from '../components/layout'
+
 import Prez from '../components/Prez'
 import Main from '../components/Main'
 
@@ -91,9 +91,9 @@ import Main from '../components/Main'
   
     render() {
       return (
-        <Layout location={this.props.location}>
+       
           <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
-            <div id="prez">
+            <div id="wrapper">
               <Prez onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
               <Main
               isArticleVisible={this.state.isArticleVisible}
@@ -106,7 +106,7 @@ import Main from '../components/Main'
             </div>
             <div id="bg"></div>
           </div>
-        </Layout>
+       
       )
     }
   }
